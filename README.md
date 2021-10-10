@@ -71,3 +71,9 @@ Runs a single batch command as an administrator
 ```sh
 console.log('RunBatchCmdAsAdmin,echo Hello World');
 ```
+# RunBullbScript
+At the moment, this only works for Bullb Forms, as BullbScript FILES arent implemented yet. However this runs bullb script from a file, which for normal bullb script is useful for executing a bunch of scripts at once
+Example:
+```sh
+console.log('RunBullbScript,/Resources/form.bullbform');
+```
