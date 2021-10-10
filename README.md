@@ -14,14 +14,14 @@ Line 9: If or if not your app users will be able to right click and view the con
 # Docs
 Documentation for bullbscript
 # OpenFile
-OpenFile is very straight forward, log OpenFile, and then whatever process name you want, by default it will go from the directory the exe is running in, and you can use slashes to go itno folders from ther,e or you can type the exact directory.
+OpenFile is very straight forward, log OpenFile, and then whatever process name you want, by default it will go from the directory the exe is running in, and you can use slashes to go into folders from there, or you can type the exact directory.  
 Example: 
 ```sh
 console.log('OpenFile,Program2.exe');
 ```
 This should open Program2.exe in the same directory as your main exe file.
 # Browser Control Commands
-With these, you can do basic tasks with the brwoser, such as refresh, go back, or forward  
+With these, you can do basic tasks with the browser, such as refresh, go back, or forward  
 Example: Refreshes The Current Page  
 ```sh
 console.log('BulbRefresh;');
