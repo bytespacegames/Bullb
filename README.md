@@ -1,5 +1,15 @@
 # Bullb
 Program to turn web apps into windows applications (Similar to Electron) created with Visual Studio C#, and CefSharp, has it's own "Scripting language" using .bullbscript and .bullbform files or by directly Running Code from the js console
+# Settings
+Your Settings.bulbsettings file is located in your resources folder, this has to be named Settings.bulbsettings, it also must use every line in order.
+Line 1: The name of the html file you want your program to boot on
+Line 2: The window title your bullb window will start with (If you have SiteTitleChanges set to true, this is practically useless.)
+Line 3: The favicon your window will boot with
+Line 4: If you want to save cache, cookies, and histories or not
+Line 5: The location you want the cache to store at relative to your local appdata
+Line 6: This is SiteTitleChanges, if you have htis to true, upon loading a new page it will update the window title to the html file's title
+Line 7 / 8: The height and width respectivelly your window will boot with
+Line 9: If or if not your app users will be able to right click and view the context menu
 # Docs
 Documentation for bullbscript
 # OpenFile
