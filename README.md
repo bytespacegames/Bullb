@@ -13,13 +13,13 @@ This should open Program2.exe in the same directory as your main exe file.
 With these, you can do basic tasks with the brwoser, such as refresh, go back, or forward
 Example: Refreshes The Current Page
 ```sh
-console.log('BullbRefresh;');
+console.log('BulbRefresh;');
 ```
 Example: Goes Back one page
 ```sh
-console.log('BullbBack;');
+console.log('BulbBack;');
 ```
 Example: Goes Forward one page
 ```sh
-console.log('BullbForward;');
+console.log('BulbForward;');
 ```
