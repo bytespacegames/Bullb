@@ -41,3 +41,28 @@ This commands changes the form title, however if you have SiteTitleChanges enabl
 console.log('ChangeBulbFormTitle,New Title!!');
 ```
 # Bulb Form Icon Commands
+This command changes the form icon to a file located in your resources folder
+Example:
+```sh
+console.log('ChangeBulbFormIconFromResources,favicon2.ico');
+```
+This command changes the form icon to a file in a general location
+Example:
+```sh
+console.log('ChangeBulbFormIconByLoc,C:/favicon.ico');
+```
+Should change the form icon to a file named 'favicon' in your C drive
+# SetResizable
+This command will set if your program is able to be resized, if this is false, the maximize button will be disable and you wont be able to resize the program on the edges with your Cursor
+Example:
+```sh
+console.log('SetResizable,false');
+```
+Sets the program to not be resizable
+# Show Minimize/Maximize boxes
+Allows you to individually change if  the minimize and maximize boxes are enable or disabled, doesn't effect resizing  the window normally.
+Example:
+```sh
+console.log('ShowMinimizeBox,false');
+```
+Hides the minimize box
