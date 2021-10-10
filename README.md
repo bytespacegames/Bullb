@@ -23,3 +23,21 @@ Example: Goes Forward one page
 ```sh
 console.log('BulbForward;');
 ```
+# CloseBulbApp
+This commands closes the application
+```sh
+console.log('CloseBulbApp;');
+```
+# CloseProcessByName
+Shuts down any windows process given it's name (Does not include file type such as .exe
+Example:
+```sh
+console.log('CloseProcessByName,Audacity');
+```
+Closes Audacity
+# ChangeBulbFormTitle
+This commands changes the form title, however if you have SiteTitleChanges enabled in your .bulbsettings file, it will reset when a new page is loaded
+```sh
+console.log('ChangeBulbFormTitle,New Title!!');
+```
+# Bulb Form Icon Commands
