@@ -1,5 +1,8 @@
 # Bullb
 Program to turn web apps into windows applications (Similar to Electron) created with Visual Studio C#, and CefSharp, has it's own "Scripting language" using .bullbscript and .bullbform files or by directly Running Code from the js console
+# Download Bullb
+Builds:  
+1.0: Download
 # Settings
 Your Settings.bulbsettings file is located in your resources folder, this has to be named Settings.bulbsettings, it also must use every line in order.  
   
