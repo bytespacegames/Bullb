@@ -66,3 +66,8 @@ Example:
 console.log('ShowMinimizeBox,false');
 ```
 Hides the minimize box
+# RunBatchCmdAsAdmin
+Runs a single batch command as an administrator
+```sh
+console.log('RunBatchCmdAsAdmin,echo Hello World');
+```
