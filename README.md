@@ -15,6 +15,23 @@ Line 5: The location you want the cache to store at relative to your local appda
 Line 6: This is SiteTitleChanges, if you have htis to true, upon loading a new page it will update the window title to the html file's title  
 Line 7 / 8: The height and width respectivelly your window will boot with  
 Line 9: If or if not your app users will be able to right click and view the context menu  
+# Bullb Script Files
+There are two types of Bullbscript files, .bullbform, and .bullbscript,  bullbform uses the "scripting language" to easily program basic "Form Applications" to run. bullbscript files just run normal bullbscript in bunches so you dont have to log each individual one. If you try to run a bullbscript file, it will automatically detect if it is a bullbform or bullbscript based on the file name.  
+  
+Here's how to create a bullbform:
+Setting a FormType:
+Currently, there's only one formtype, and that is the messagebox,
+so in your bullbform file you will need:
+```sh
+FormType,MessageBox
+```
+ParameterCount is how many paramaters you want in your form, for a MEssageBox the current maximum is two. If you have one, the message box will only display text, otherwise, it will also have a title.  
+Param<number>,
+This just lets you choose what you want for each paramater, starting at one, the name you will want to put down for the paramater is just Param and then which paramater, for example
+```sh
+Param1,Hello World!
+```
+If you log RunBullbScript for this new form, it should show a message box that says 'Hello World!'
 # Docs
 Documentation for bullbscript
 # The Following Commands were introduced in Version 1.0
