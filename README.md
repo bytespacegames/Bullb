@@ -15,8 +15,8 @@ Line 5: The location you want the cache to store at relative to your local appda
 Line 6: This is SiteTitleChanges, if you have htis to true, upon loading a new page it will update the window title to the html file's title  
 Line 7 / 8: The height and width respectivelly your window will boot with  
 Line 9: If or if not your app users will be able to right click and view the context menu  
-Line 10: If or if not you want to prevent multiple instances of the application from running at once
-Line 11: If the line above is true, the location of the bullbForm (relative to the folder your exe is in by default) you want to run if you try to run another instance, if you don't want this, you can set this to anything else and it won't do anything, by default it's set to "none"
+Line 10: If or if not you want to prevent multiple instances of the application from running at once (V1.1 and above)
+Line 11: If the line above is true, the location of the bullbForm (relative to the folder your exe is in by default) you want to run if you try to run another instance, if you don't want this, you can set this to anything else and it won't do anything, by default it's set to "none" (V1.1 and above)
 # Bullb Script Files
 There are two types of Bullbscript files, .bullbform, and .bullbscript,  bullbform uses the "scripting language" to easily program basic "Form Applications" to run. bullbscript files just run normal bullbscript in bunches so you dont have to log each individual one. If you try to run a bullbscript file, it will automatically detect if it is a bullbform or bullbscript based on the file name.  
   
