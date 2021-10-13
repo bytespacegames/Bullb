@@ -17,6 +17,7 @@ Line 7 / 8: The height and width respectivelly your window will boot with
 Line 9: If or if not your app users will be able to right click and view the context menu  
 # Docs
 Documentation for bullbscript
+# The Following Commands were introduced in Version 1.0
 # OpenFile
 OpenFile is very straight forward, log OpenFile, and then whatever process name you want, by default it will go from the directory the exe is running in, and you can use slashes to go into folders from there, or you can type the exact directory.  
 Example: 
