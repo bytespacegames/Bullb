@@ -4,6 +4,7 @@ Program to turn web apps into windows applications (Similar to Electron) created
 Everything you need to get started apart from the web files is located in your Resources Folder.  
   
 Builds:  
+1.1: [Download](http://fumacrom.com/2VREW)
 1.0: [Download](http://fumacrom.com/2SlBD)
 # Settings
 Your Settings.bulbsettings file is located in your resources folder, this has to be named Settings.bulbsettings, it also must use every line in order.  
