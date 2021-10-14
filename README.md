@@ -147,3 +147,9 @@ Example:
 ```sh
 console.log('LoadSpecifiedUAString,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 OPR/76.0.4017.94 (Edition utorrent)');
 ```
+# SetAtTop
+Allows you to specify if you want your app to appear on top of others or not
+Example:  
+```sh
+console.log('SetAtTop,true);
+```
