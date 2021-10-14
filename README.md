@@ -121,34 +121,34 @@ Example:
 console.log('ShowTitleBar,false');
 ```
 # Minimize / Maximize Bulb Apps
-These commands allow you to maximize and minimize the application
+These commands allow you to maximize and minimize the application  
 Example:  
 ```sh
 console.log('MaximizeBulbApp;');
 //If you want to minimize, just changed Maximize to Minimize in the command
 ```
 # SetWindowLocationX/Y
-These commands allow you to change the location of the window on your screen
+These commands allow you to change the location of the window on your screen  
 Example:  
 ```sh
 console.log('SetWindowLocationX,69');
 console.log('SetWindowLocationX,420');
 ```
 # LoadUAPreset
-Switches the UA based off of our Int to UA conversion.
+Switches the UA based off of our Int to UA conversion.  
 Example:  
 ```sh
 console.log('LoadUAPreset,2');
 //Sets the ua to mobile safari
 ```
 # LoadSpecifiedUAString
-Switches the UA for people who want to do thigns such as more specific uas to control the OS, and version of the User Agent
+Switches the UA for people who want to do thigns such as more specific uas to control the OS, and version of the User Agent   \
 Example:  
 ```sh
 console.log('LoadSpecifiedUAString,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 OPR/76.0.4017.94 (Edition utorrent)');
 ```
 # SetAtTop
-Allows you to specify if you want your app to appear on top of others or not
+Allows you to specify if you want your app to appear on top of others or not  
 Example:  
 ```sh
 console.log('SetAtTop,true);
