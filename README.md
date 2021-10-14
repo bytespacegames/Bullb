@@ -107,8 +107,29 @@ Runs a single batch command as an administrator
 console.log('RunBatchCmdAsAdmin,echo Hello World');
 ```
 # RunBullbScript
-At the moment, this only works for Bullb Forms, as BullbScript FILES arent implemented yet. However this runs bullb script from a file, which for normal bullb script is useful for executing a bunch of scripts at once  
+In v1.0, this only worked for Bullb Forms, as BullbScript FILES werent implemented yet. However this runs bullb script from a file, which for normal bullb script is useful for executing a bunch of scripts at once  
 Example:
 ```sh
 console.log('RunBullbScript,/Resources/form.bullbform');
+```
+# The Following Commands were introduced in Version 1.1
+# ShowTitleBar
+This command shows and hides the titlebar that cotnains the icon, title, and minimize, maximize, and close buttons  
+Example:  
+```sh
+console.log('ShowTitleBar,false');
+```
+# Minimize / Maximize Bulb Apps
+These commands allow you to maximize and minimize the application
+Example:  
+```sh
+console.log('MaximizeBulbApp;');
+//If you want to minimize, just changed Maximize to Minimize in the command
+```
+# SetWindowLocationX/Y
+These commands allow you to change the location of the window on your screen
+Example:  
+```sh
+console.log('SetWindowLocationX,69');
+console.log('SetWindowLocationX,420');
 ```
