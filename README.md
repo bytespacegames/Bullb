@@ -2,6 +2,7 @@
 Program to turn web apps into windows applications (Similar to Electron) created with Visual Studio C#, and CefSharp, has it's own "Scripting language" using .bullbscript and .bullbform files or by directly Running Code from the js console
 # Download Bullb
 Everything you need to get started apart from the web files is located in your Resources Folder.  
+  
 Builds:  
 1.0: [Download](http://fumacrom.com/2SlBD)
 # Settings
@@ -132,4 +133,17 @@ Example:
 ```sh
 console.log('SetWindowLocationX,69');
 console.log('SetWindowLocationX,420');
+```
+# LoadUAPreset
+Switches the UA based off of our Int to UA conversion.
+Example:  
+```sh
+console.log('LoadUAPreset,2');
+//Sets the ua to mobile safari
+```
+# LoadSpecifiedUAString
+Switches the UA for people who want to do thigns such as more specific uas to control the OS, and version of the User Agent
+Example:  
+```sh
+console.log('LoadSpecifiedUAString,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 OPR/76.0.4017.94 (Edition utorrent)');
 ```
