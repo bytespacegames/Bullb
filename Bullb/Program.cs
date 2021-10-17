@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -16,8 +17,9 @@ namespace Bullb
         [STAThread]
         static void Main()
         {
-            Mutex mutex = new Mutex(false, appGuid);
-            if (!mutex.WaitOne(0, false))
+            //Mutex mutex = new Mutex(false, appGuid);
+            //if (!mutex.WaitOne(0, false))
+            if (System.Diagnostics.Process.GetProcessesByName(System.IO.Path.GetFileNameWithoutExtension(System.Reflection.Assembly.GetEntryAssembly().Location)).Count() > 1)
             {
                 TextReader tr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + @"\Resources\Settings.bulbsettings");
                 for (int i = 0; i < 9; i++) { tr.ReadLine(); }
