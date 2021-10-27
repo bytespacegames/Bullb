@@ -4,6 +4,7 @@ Program to turn web apps into windows applications (Similar to Electron) created
 Everything you need to get started apart from the web files is located in your Resources Folder.  
   
 Builds:  
+1.2 [Download](http://fumacrom.com/2g8r7)  
 1.12 [Download](http://fumacrom.com/2XvCh)  
 1.1: [Download](http://fumacrom.com/2VREW)  
 1.0: [Download](http://fumacrom.com/2SlBD)  
@@ -155,3 +156,14 @@ Example:
 ```sh
 console.log('SetAtTop,true);
 ```
+# References (Since 1.2)
+References are a feature that should've been here in the first place, upon executing your BullbScript line, it replaces the reference text with the corresponding value, the referenced values are values  all stored in the winforms app, not in your html or code, so they aren't by default easily accessible
+```sh
+WindowLoc.X() //X Location of the window
+WindowLoc.Y() //Y Location of the window
+WindowSize.X() //Window Width
+WindowSize.Y() //Window Height
+WindowTitle() //Title currently displayed on your window
+File.Location() //Directory on your computer the exe is running at
+File.Name() //Name of the currently running exe
+File.NameWithoutExtension() //Name of the currently running exe without file extensions```
