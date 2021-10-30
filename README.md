@@ -4,6 +4,7 @@ Program to turn web apps into windows applications (Similar to Electron) created
 Everything you need to get started apart from the web files is located in your Resources Folder.  
   
 Builds:  
+1.3 [Download](http://fumacrom.com/2jM0j)
 1.2 [Download](http://fumacrom.com/2g8r7)  
 1.12 [Download](http://fumacrom.com/2XvCh)  
 1.1: [Download](http://fumacrom.com/2VREW)  
@@ -167,3 +168,14 @@ WindowTitle() //Title currently displayed on your window
 File.Location() //Directory on your computer the exe is running at
 File.Name() //Name of the currently running exe
 File.NameWithoutExtension() //Name of the currently running exe without file extensions```
+# Request References (Since 1.3)  
+Request References will take the requested reference, and instead of replacing it in a bullbscript line, will run javascript with it which can allow you to engineer it to get the values back into javascript.
+Ex:
+```
+console.log('RequestReferenceAsScript,File.Location()');
+```
+# SetRefReqPref / Suff   
+Sets the text of javascript before and after the value to execute, ex:
+```sh
+console.log('SetRefReqPref,console.log(');
+```
