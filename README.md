@@ -4,7 +4,8 @@ Program to turn web apps into windows applications (Similar to Electron) created
 Everything you need to get started apart from the web files is located in your Resources Folder.  
   
 Builds:  
-1.3 [Download](http://fumacrom.com/2jM0j)
+1.4 [Download](http://fumacrom.com/2tjN0)  
+1.3 [Download](http://fumacrom.com/2jM0j)  
 1.2 [Download](http://fumacrom.com/2g8r7)  
 1.12 [Download](http://fumacrom.com/2XvCh)  
 1.1: [Download](http://fumacrom.com/2VREW)  
@@ -179,3 +180,18 @@ Sets the text of javascript before and after the value to execute, ex:
 ```sh
 console.log('SetRefReqPref,console.log(');
 ```
+# Form True/False Properties (Since 1.4)
+Form TF Properties set true or false settings related to the window form the application is running on. There are several settings  
+Ex:
+```sh
+console.log('SetEnabled,false');
+//Disables the form
+```
+The other properties are:  
+SetWaitCursor  
+SetShowIcon  
+SetShowInTaskbar  
+SetUseHelpButton  
+SetDoubleBuffered
+SetControlBox  
+and SetAllowDrop
